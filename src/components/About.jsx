@@ -2,7 +2,7 @@ import image2 from "../assets/images/image-2.jpg";
 
 const About = () => {
   return (
-    <div className="w-full py-[7vw] bg-[#CDEA68] rounded-3xl text-zinc-950">
+    <div  className="w-full py-[7vw] bg-[#CDEA68] rounded-tl-3xl rounded-tr-3xl text-zinc-950">
       <h1 className="font-['Neue_Montreal'] text-[4vw] leading-none px-12">
         Ochi is a strategic partner for fast-growing tech businesses that need
         to{" "}

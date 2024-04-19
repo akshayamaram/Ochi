@@ -4,7 +4,7 @@ import { LOGO } from './utils/constants'
 
 const Navbar = () => {
   return (
-    <div className='fixed z-[99] w-full px-20 py-8 font-["Neue_Montreal"] flex justify-between items-center'>
+    <div className='w-full fixed z-[99] px-20 py-8 font-["Neue_Montreal"] flex justify-between items-center'>
         <div className="logo">
             {LOGO}
         </div>

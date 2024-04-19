@@ -1,19 +1,22 @@
 import { MdArrowOutward } from "react-icons/md";
 import image from '../assets/images/image-1.jpg'
+import { motion } from "framer-motion";
 
 const LandingPage = () => {
+
   return (
-    <div className="w-full h-screen bg-zinc-900 pt-1">
+    <div data-scroll data-scroll-speed="-.3" className="w-full h-screen bg-zinc-900 pt-1">
       <div className="hero-text mt-40 px-20">
         {["We Create", "Eye Opening", "Presentations"].map((item, index) => {
           return (
             <div className="masker" key={index}>
               <div className="w-fit flex ">
                 {index === 1 && (
-                  <div
+                  <motion.div
+                    initial={{width: 0}} animate={{width: "9vw"}} transition={{ease: [0.76, 0, 0.24, 1], duration: 1}}
                     className="w-[9vw] h-[5.5vw] mr-[1vw] relative top-[1vw] object-cover rounded-md flex justify-center items-center bg-cover bg-center"
                     style={{ backgroundImage: `url(${image})` }}
-                  ></div>
+                  ></motion.div>
                 )}
                 <h1 className="uppercase leading-[6.5vw] tracking-tighter text-[8vw] font['Founders_Grotesk'] font-medium">
                   {item}

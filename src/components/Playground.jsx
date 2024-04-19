@@ -23,7 +23,7 @@ const Playground = () => {
 
   return (
     <div className="w-full h-screen overflow-hidden">
-      <div className="relative w-full h-full bg-cover bg-center object-cover" style={{ backgroundImage: `url(${image3})` }}>
+      <div data-scroll data-scroll-speed="-.7" className="relative w-full h-full bg-cover bg-center object-cover" style={{ backgroundImage: `url(${image3})` }}>
         <div className='absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] flex gap-7 '>
           <div className='w-[13vw] h-[13vw] rounded-full bg-zinc-100 flex items-center justify-center'>
             <div style={{transform: `translateX(${transformX}%) translateY(${transformY}%)`}} className='w-2/3 h-2/3 rounded-full bg-zinc-900 relative'>
