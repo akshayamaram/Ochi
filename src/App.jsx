@@ -5,6 +5,9 @@ import LandingPage from "./components/LandingPage";
 import Marquee from "./components/Marquee";
 import About from "./components/About";
 import Playground from "./components/Playground";
+import Projects from "./components/Projects";
+import Cards from "./components/Cards";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -14,6 +17,9 @@ const App = () => {
       <Marquee />
       <About/>
       <Playground/>
+      <Projects/>
+      <Cards/>
+      <Footer/>
     </div>
   );
 };
